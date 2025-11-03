@@ -1,0 +1,27 @@
+{
+    "name": "z77/persistence",
+    "description": "Persistence layer for Z77 framework (ORM, Repositories, FileStorage)",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Peter Ruepp",
+            "email": "peter.ruepp@z77.ch"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Z77\\Persistence\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.2"
+    },
+    "support": {
+        "issues": "https://github.com/z77-ch/persistence/issues",
+        "source": "https://github.com/z77-ch/persistence"
+    },
+    "readme": "README.md"
+}
